@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@dtrader/api": "^0.0.3",
+    "cron": "^3.1.7",
+    "node-schedule": "^2.1.1"
+  }
+}
